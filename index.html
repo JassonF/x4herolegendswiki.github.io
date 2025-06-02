@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X4 Heroes: Legends Wikia</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="js/theme-switch.js" defer></script>
+</head>
+
+<body class="loaded">
+    <header class="top-bar">
+        <div class="header-content">
+            <h1 class="logo">X4 Heroes: Legends Wikia <span class="version">v0.0.1B</span></h1>
+            <nav class="nav">
+                <a href="#">Cards</a>
+                <a href="#">News</a>
+                <div class="dropdown">
+                    <a href="#">Events ▾</a>
+                    <div class="dropdown-content">
+                        <a href="#">Story Events</a>
+                        <a href="#">Battle</a>
+                        <a href="#">Growth</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#">Teams ▾</a>
+                    <div class="dropdown-content">
+                        <a href="#">Categories</a>
+                        <a href="#">Types</a>
+                        <a href="#">Links</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a>Settings ▾</a>
+                    <div class="dropdown-content">
+                        <label for="theme-select">Theme:</label>
+                        <select id="theme-select">
+                            <option value="Auto">Auto</option>
+                            <option value="Dark">Dark</option>
+                            <option value="Light">Light</option>
+                        </select>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+<div class="main site-skin">
+    <div class="container d-flex flex-column justify-content-center">
+        <div id="Content-container" class="row">
+            <div class="col-12 mt-3">
+                <div id="recent cards" class="card">
+                    <h5 class="card-header text-center">Recent Cards</h5>
+                    <div class="card-body">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-auto">
+                                <a class="card-thumb-wrapper" href="/characters/1000003.html" style="width: 126px; height: 153px;">
+                                    <div class="card-thumb" style="transform: scale(0.9);">
+                                <!--v-if-->
+                                <img class="card-thumb-bg" src="assets/layout/character_thumb_bg/cha_base_01_04.webp" loading="lazy" alt="">
+                                <!--v-if-->
+                                <img class="card-thumb-character" src="assets/character/thumb/card_1000003_thumb.png" loading="lazy" alt="Thumbnail image for Jasson Frost">
+                                <!--v-if-->
+                                <img class="card-rarity" src="assets/layout/character/cha_rare_sm_ur.webp" loading="lazy">
+                                <img class="card-element" src="assets/layout/character/cha_type_icon_11.webp" loading="lazy">
+                                <!--v-if-->
+                                <!--v-if-->
+                                <div class="card-info-box x4-box teq">
+                                    <span style="font-size: 15px;">Jasson Frost (Humano)</span>
+                                </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>

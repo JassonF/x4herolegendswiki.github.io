@@ -1,0 +1,19 @@
+.custom-tooltip {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  pointer-events: none;
+  position: absolute;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.9);
+  color: #fff;
+  padding: 6px 10px;
+  font-size: 0.85rem;
+  border-radius: 5px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  max-width: 250px;
+  text-align: center;
+}
+.custom-tooltip.show {
+  opacity: 1;
+  pointer-events: auto;
+}
